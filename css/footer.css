@@ -16,6 +16,8 @@ footer section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    margin-top: 50px;
 }
 
 footer section span:nth-child(1) {

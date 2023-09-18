@@ -15,7 +15,44 @@ body main {
 
     width: 100%;
 
-    margin-top: 90px;
+    margin-top: 110px;
+
+    background-color: var(--branco);
 }
 
-body main div
+body main div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 20px;
+}
+
+.escrita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+
+    gap: 70px;
+}
+
+.imagem {
+    width: 50%;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+
+    border: 20px solid var(--branco);
+    border-radius: 50px;
+}
+
+body main div h2,
+body main div p,
+body main div a {
+    max-width: 80%;
+}
