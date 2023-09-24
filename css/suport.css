@@ -1,0 +1,127 @@
+@import url("../css/color.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00163f;
+    display: absolute;
+    flex-direction: column;
+    place-items: center;
+    justify-content: top;
+    align-items: center;
+    margin-top: 90px;
+    height: 100vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#atendimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#atendimento .titulo {
+    text-align: center;
+    color: white;
+}
+
+.homeicon {
+    width: 5%;
+    height: auto;
+    filter: grayscale(100%);
+    margin-bottom: 15px;
+}
+
+select#options {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+select#options option {
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+#duvidas-frequentes {
+    display: flex;
+    flex-direction: column; /*ajustar*/
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.subtitulo{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: #0b9021;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #015810;
+}
+
+.cardicon {
+    width: 30%;
+    padding: 5px;
+    filter: grayscale(100%);
+    margin: 0 auto;
+}
+
+.content {
+    padding: 20px;
+    color: white;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#canal-atendimento {
+    background: #fffffc;
+    padding: 50px;
+    text-align: left;
+}
+
+#canal-atendimento h2 {
+    margin-bottom: 10px;
+}
+
+.foneicon {
+    width: 50px;
+    margin: 10px auto;
+}
+
+#canal-atendimento p {
+    margin-bottom: 6px;
+}
