@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styleCadastro.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Cadastre-se</title>
+</head>
+<header>
+    <a href="index.html">
+        <img id="img-logo-header" src="imagens/logo.png" alt="logo-devaria">
+        <input type="research" id="txtbusca" placeholder="O que procura?" maxlength="30" required="5">
+    </a>
+    <nav>
+        <ul>
+            <li><a href="pag1.html">Sobre Nós</a></li>
+            <li><a href="pag2.html">Suporte</a></li>
+            <li><a href="pag3.html">Planos e Assinaturas</a></li>
+            <li><a href="registro.html">Cadastre-se</a></li>
+            <li><a href="tela_login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="form">
+        <form action="tela_login.html">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Crie sua conta</h1>
+                </div>
+                <div class="botao-login">
+                    <button><a href="tela_login.html">Faça Login</a></button>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="firstname">Primeiro Nome</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="lastname">Sobrenome</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="number">Celular</label>
+                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+
+
+                <div class="input-box">
+                    <label for="confirmPassword">Confirme sua Senha</label>
+                    <input id="confirmPassword" type="password" name="confirmPassword"
+                        placeholder="Digite sua senha novamente" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="dateborn">Seu nascimento</label>
+                    <input id="dateborn" type="date" name="dateborn" required>
+                </div>
+            </div>
+
+            <div class="gender-inputs">
+                <div class="gender-title">
+                    <h6>Gênero</h6>
+                </div>
+
+                <div class="gender-group">
+                    <div class="gender-input">
+                        <input id="female" type="radio" name="gender">
+                        <label for="female">Feminino</label>
+                    </div>
+
+                    <div class="gender-input">
+                        <input id="male" type="radio" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>
+
+                    <div class="gender-input">
+                        <input id="others" type="radio" name="gender">
+                        <label for="others">Outros</label>
+                    </div>
+                    
+                    <div class="gender-input">
+                        <input id="none" type="radio" name="gender">
+                        <label for="none">Prefiro não informar</label>
+                    </div>
+                </div>
+            </div>
+            <div class="botao-continuar">
+                <button><a href="tela_login.html">Continuar</a> </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

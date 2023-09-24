@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg,#ecb251, #02042a);
+
+}
+.tela-login{
+    background-color: #02042a;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+.botao{
+    display: inline-block;
+    background-color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+}
+.botao:hover{
+    background-color: #ecb251;
+}
+.registro{
+    color:#ecb251;
+}

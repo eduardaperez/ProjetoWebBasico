@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg,#ecb251, #02042a);
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #02042a ;
+    color: #f1ca84;
+    padding: 3rem;
+}
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.botao-login{
+    display: flex;
+    align-items: center;
+}
+.botao-login button{
+    border: none;
+    background-color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao-login button:hover{
+    background-color: #f1ca84;
+}
+.botao-login button a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #f1ca84;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #f1ca84;
+}
+.input-box label{
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.botao-continuar button{
+    display: inline-block;
+    background-color: white;
+    border: none;
+    padding: 10px 5%;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+}
+.botao-continuar button:hover{
+ background-color: #f1ca84;
+}
+.botao-continuar button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: black;
+}
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+.gender-input{
+    display: flex;
+    align-items: center;
+}
+.gender-input input{
+    margin-right: 0.35rem;
+}
+.gender-input label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #f1ca84;
+}
