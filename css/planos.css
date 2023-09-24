@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg,#ecb251, #02042a);
+}
+.botton button{
+    display: inline-block;
+    background-color: white;
+    border: none;
+    padding: 10px 5%;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80%;
+    transform: translate(12%, -250%);
+}
+.botton button:hover{
+ background-color: #f1ca84;
+}
+.botton button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
