@@ -1,0 +1,75 @@
+body {
+    background-color: #001615;
+    font-family: Arial, sans-serif;
+    color: #fffffc;
+    text-align: center;
+    padding: 20px;
+}
+
+body div main {
+    margin-top: 70px;
+}
+
+h1, h2, h3 {
+    color: #ecb251;
+    text-align: center;
+}
+
+p {
+    color: #fffffc;
+    text-align: left;
+}
+
+.highlight {
+    color: #f1ca84;
+}
+
+/* Estilos adicionais */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-box {
+    background-color: #f1ca84;
+    padding: 20px;
+    margin: 10px;
+    flex: 0 0 calc(50% - 20px);
+    text-align: left;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row; /* Alinha imagem e conteúdo na horizontal */
+    align-items: center;
+    border: 2px solid #ecb251;
+}
+
+.info-box img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px; /* Espaçamento à direita da imagem */
+}
+
+.info-box h2 {
+    font-size: 24px;
+    padding: 10px;
+    margin: 0;
+    border: 2px solid #ecb251;
+    display: inline-block;
+    text-align: center; /* Centralize o título horizontalmente */
+    width: 100%; /* Tornar o título ocupando a largura completa da caixa */
+}
+
+.info-box p {
+    font-size: 18px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
